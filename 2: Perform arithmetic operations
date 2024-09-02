@@ -1,0 +1,16 @@
+2. Write a python program to take two numbers as input now find summation,
+subtraction, multiplication and division of two numbers.
+
+# Program 2: Perform arithmetic operations
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+sum_result = num1 + num2
+sub_result = num1 - num2
+mul_result = num1 * num2
+div_result = num1 / num2
+
+print(f"Summation: {sum_result}")
+print(f"Subtraction: {sub_result}")
+print(f"Multiplication: {mul_result}")
+print(f"Division: {div_result}")
