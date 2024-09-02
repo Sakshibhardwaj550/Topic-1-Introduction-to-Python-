@@ -1,0 +1,10 @@
+6.Write a python program to find square root of a number.
+root=math.sqrt(n)
+
+# Program 6: Find the square root of a number
+import math
+
+number = float(input("Enter the number: "))
+square_root = math.sqrt(number)
+
+print(f"Square Root: {square_root}")
